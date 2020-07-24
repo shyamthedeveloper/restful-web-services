@@ -17,6 +17,7 @@ public class HellowWorldController {
 	public String hellowWorld() {
 		return "Hellow World";
 	}
+	//just for test commit
 	
 	@GetMapping(path="/hellow_world_bean")
 	public HellowWorldBean hellowWorldBean() {
